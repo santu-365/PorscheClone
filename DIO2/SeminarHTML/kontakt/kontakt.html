@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stranica o povijesti Porschea">
+    <meta name="keywords" content="povijest, Porsche, HTML, CSS">
+    <meta name="author" content="Marko Faletar">
+    <title>Kontakt</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="../naslovnica.html"><img src="/images/image.png"></a></li>
+                <li><a href="../naslovnica.html">Naslovnica</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="../o_nama.html">O nama</a></li>
+            </ul>
+        </nav>
+        <img class="contactimg" src="/images/kontakt.png">
+        <h3>KONTAKT</h3>
+        <section class="kontaktsec">
+            <table class="tablakontakt">
+                <tr>
+                    <td>Lokacija:</td>
+                    <td>Broj telefona:</td>
+                    <td>E-mail:</td>
+                    <td>Web stranica:</td>
+                </tr>
+                <tr>
+                    <td>10000 Zagreb, Visokog čovjeka 21</td>
+                    <td>090 9990</td>
+                    <td>kontakt@porsche.hr</td>
+                    <td>povijestporsche.com</td>
+                </tr>
+            </table>
+            <p>Možete nas kontaktirati na besplatni broj 090 9990. Radno vrijeme je 7h - 21h svaki dan.</p>
+            <p>You can contact us on the toll-free number 090 9990. Working hours are 7 am - 9 pm every day.</p>
+        </section>
+        <section class="kontaktsec">
+            <form style="padding: 10px;">
+                <table border="0" class="tablaf">
+                    <caption>KONTAKTIRAJTE NAS</caption>
+                    <tr>
+                        <td width="100">Ime:</td>
+                        <td><input type="text" name="ime" size="40" maxlength="20"/></td>
+                    </tr>
+                    <tr>	
+                        <td>Prezime:</td>
+                        <td><input type="text" name="prezime" size="40" maxlength="20"/></td>
+                    </tr>
+                    <tr>
+                        <td>Spol:</td>
+                        <td>
+                            <input type="radio" name="spol" value="1"/>muško
+                            <input type="radio" name="spol" value="2"/>žensko
+                            <input type="radio" name="spol" value="3"/>odbijam reći
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Stariji sam od 18:</td>
+                        <td>
+                            <label><input type="checkbox" value="br1" name="starost" />Da</label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label><input type="checkbox" value="br2" name="starost"/>Ne</label>
+                        </td>
+                    </tr>
+                    <tr>	
+                        <td>UPIT:</td>
+                        <td><textarea cols="40" rows="10"></textarea></td>
+                    </tr>
+                    <tr>	
+                        <td></td>
+                        <td>
+                            <input type="submit" name="ok" value="Pošalji"/>
+                            <input type="reset" value="Počni ispočetka"/></br></br>
+                            <a href="mailto:mfaletar@tvz.hr">Pošalji na E-mail</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+
+        <footer>
+            <p>Izradio: Marko Faletar JMBAG: 0246103527</p>
+        </footer>
+    </div>
+</body>
+</html>

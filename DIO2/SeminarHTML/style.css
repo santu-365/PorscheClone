@@ -1,0 +1,226 @@
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+body{
+    margin: 0 auto;
+    background-image: url("/images/pattern.jpg");
+    background-repeat: repeat;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    padding: 2px;
+    bottom: 0;
+}
+
+
+
+.rel{
+    position: relative;
+}
+.str3{
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
+ }
+.str3 p{
+    padding: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin: 0;
+}
+.str3 h2{
+    padding: 20px;
+    font-size: 30px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.str3 h1{
+    padding: 20px;
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+}
+aside{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 450px;
+    height: 1060px;
+    background-color: gray;
+}
+aside p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+}
+.imgside{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.fix{
+    width: 50px;
+    position: fixed;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+}
+
+
+
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+caption{
+    font-size: 30px;
+}
+.tablaf{
+    margin: 0 auto;
+    width: 450px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.tablaf td{
+    padding: 10px;
+}
+.kontaktsec{
+    background-color: gray;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.kontaktsec p {
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin: 0;
+}
+.contactimg{
+    width: 1000px;
+}
+.tablakontakt{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 900px;
+    background-color: white;
+}
+.tablakontakt td{
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(46, 46, 46);
+  }
+li {
+    display: inline-block;
+  }
+li a:hover{
+    background-color: rgb(83, 83, 83);
+  }
+li img{
+    width: 50px;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.str1{
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+.str1 p{
+    padding: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin: 0;
+}
+.str1 h2{
+    padding: 20px;
+    padding-left: 40px;
+    font-size: 30px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.str1 h1{
+    padding: 20px;
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+}
+.tabla{
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    width: 900px;
+}
+.link{
+    margin: 0 auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: white;
+    width: 900px;
+}
+.link td{
+    width: 150px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+}
+.tabla td{
+    padding: 20px;
+    text-align: center;
+}
+.s1{
+    width: 400px;
+    float: right;
+}
+.s11{
+    width: 400px;
+    float: left;
+    padding: 10px;
+}
+.s2{
+    width: 450px;
+    padding: 5px;
+}
+.s3{
+    width: 900px;
+    padding-left: 50px;
+}
