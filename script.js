@@ -3,4 +3,3 @@ const linkovi = document.getElementsByClassName("linkovi")[0]
 gumb.addEventListener('click', () => {
     linkovi.classList.toggle('active')
 })
-alert("AAAAAAAAAAAAAA")
