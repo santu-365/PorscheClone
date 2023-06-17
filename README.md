@@ -1,2 +1,2 @@
-# Projekt_1.sem
-Project Porsche wepage
+# Porsche klon
+Klon Porsche stranice napravljen kao projekt za prvi semestar faksa.
