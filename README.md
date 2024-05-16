@@ -2,4 +2,4 @@
 
 <hr>
 
-This is a project I did in my first year of highschool it is a clone of the Porsche website that allows you to read about Porsche and check out cars
+This is a project I did in my first year of high school it is a clone of the Porsche website that allows you to read about Porsche and check out cars.
